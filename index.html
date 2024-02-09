@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List TO DO | Local Storage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container text-center">
+        <div class="section-todo-list">
+            <h4>Local Storage</h4>
+            <h2 class="mb-3"><b>To Do List</b></h2>
+            <div class="input-btn">
+                <input type="text" id="input" class="form-control mb-3" placeholder="Add a task">
+                <button class="btn btn-success" onclick="addTasks()"><b>Add Task</b></button>
+            </div>
+        </div>
+        <div class="list-tasks mt-5">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    name of task more content
+                    <span>X</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    name of task more content
+                    <span>X</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    name of task more content
+                    <span>X</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    name of task more content
+                    <span>X</span>
+                </li>
+            </ul>
+        </div>              
+        <button class="btn btn-danger mt-3" onclick="removeAll()">Remove all</button>
+    </div>
+    <script src="custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

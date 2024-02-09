@@ -1,0 +1,22 @@
+/* Font del sitio */
+* {
+    font-family: "Gruppo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Ancho del campo input de ingreso de tarea */
+.custom-width {
+    width: 600px; 
+}
+
+/* Clase error al agregar tarea al input de ingreso de tarea */
+.error {
+    color: red;
+    text-align: left;
+    background-color: #ffe5e5;
+    padding: 2px 13px;
+    border: solid 2px red;
+    border-radius: 2px;
+    margin-top: 10px;
+}
